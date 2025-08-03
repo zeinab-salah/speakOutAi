@@ -1,8 +1,9 @@
 // src/routes/ApplicationRouter.jsx
 import { Routes, Route } from 'react-router-dom';
 import HomeLayout from '../layouts/HomeLayout';
-import Dashboard from '../pages/EmpathyAndDigital'; 
-import Example from '../pages/ReportAndEmpathy';
+import AdminLayout from '../layouts/AdminLayout';
+import Dashboard from '../pages/Employee/EmpathyAndDigital'; 
+import AdminDashboard from '../pages/Admin/AdminDashboard';
 
 const ApplicationRouter = () => {
   return (
@@ -13,6 +14,12 @@ const ApplicationRouter = () => {
 
         {/* Add more routes here */}
         {/* <Route path="profile" element={<Profile />} /> */}
+      </Route>
+
+       {/* Admin routes */}
+      <Route path="/admin" element={<AdminLayout />}>
+        <Route index element={<AdminDashboard />} />
+        {/* Example: <Route path="settings" element={<AdminSettings />} /> */}
       </Route>
     </Routes>
   );

@@ -1,5 +1,5 @@
 // src/components/ReportForm.jsx
-import VoiceRecorderButton from '../components/VoiceRecorderButton';
+import VoiceRecorderButton from './VoiceRecorderButton';
 
 const ReportForm = () => {
    return (

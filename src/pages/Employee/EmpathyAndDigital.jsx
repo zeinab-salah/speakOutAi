@@ -1,6 +1,5 @@
-import ReportForm from '../components/ReportForm';
-import EmpathyWall from '../components/EmpathyWall';
-import DigitalStories from '../components/DigitalStories';
+import EmpathyWall from '../../components/Employee/EmpathyWall';
+import DigitalStories from '../../components/Employee/DigitalStories';
 
 const EmpathyAndDigital = () => {
   return (

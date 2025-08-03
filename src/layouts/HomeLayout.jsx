@@ -1,7 +1,7 @@
-import Sidebar from '../components/Sidebar';
+import Sidebar from '../components/Employee/Sidebar';
 import { Outlet } from "react-router-dom";
-import ReportAndEmpathy from '../pages/ReportAndEmpathy';
-import EmpathyAndDigital from '../pages/EmpathyAndDigital';
+import ReportAndEmpathy from '../pages/Employee/ReportAndEmpathy';
+import EmpathyAndDigital from '../pages/Employee/EmpathyAndDigital';
 
 export default function HomeLayout() {
   return (

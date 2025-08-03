@@ -1,6 +1,6 @@
-import ReportForm from '../components/ReportForm';
-import EmpathyWall from '../components/EmpathyWall';
-import Sidebar from '../components/Sidebar';
+import ReportForm from '../../components/Employee/ReportForm';
+import EmpathyWall from '../../components/Employee/EmpathyWall';
+import Sidebar from '../../components/Employee/Sidebar';
 
 const ReportAndEmpathy = () => {
   return (
